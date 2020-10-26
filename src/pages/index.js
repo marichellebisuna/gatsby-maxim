@@ -1,13 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import "../assets/vendor/bootstrap/css/bootstrap.min.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    
+    <h1>body</h1>
   </Layout>
 )
 
